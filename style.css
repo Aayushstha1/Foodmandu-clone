@@ -1,0 +1,349 @@
+	@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+	*{
+		margin:0px;
+		padding:0px;
+		box-sizing: border-box;
+
+	}
+	.header{
+		height: 100vh;
+		width: 100%;
+		position:relative;
+		background:url("https://foodmandu.com/img/top_seamless_background.jpg");
+		background-size: cover;
+		background-position: center;
+	}
+	.top-bar{
+		height: 10vh;
+		width:100%;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		padding:5px 7%;
+		background-color:#fff;
+		position: fixed;
+		z-index: 5;
+		border-bottom: 	1px solid black;
+	}
+	.top-bar img{
+		height:30px;
+		width: 150px;
+	}
+	.login-btn{
+		padding:7px 25px;
+		background-color: #000;
+		color:#fff;
+		color:yellow;
+		outline: none;
+		border: none;
+
+	}
+	.login-btn:hover{
+		background:#2b2b2b;
+		opacity:0.9;
+		 color:yellow;
+	}
+	.first{
+		position:absolute;
+		height:210px;
+		width:210px;
+		top:150px;
+		left:110px;
+	}
+	.second{
+		position:absolute;
+		height:270px;
+		width: 275px;
+		top:275px;
+		left:267px;
+	}
+	.third{
+		position:absolute;
+		height:398px;
+		width: 410px;
+		top:215px;
+		left:675px;
+		overflow:hidden;
+		z-index: 1;
+	}
+	.fourth{
+		position:absolute;
+		height:300px;
+		width:300px;
+		top:60px;
+		left:900px;
+
+		}
+		.search{
+			position:absolute;
+			height: 100px;
+			width:1135px;
+			top: 270px;
+			left:60px;
+			padding:5px;
+			z-index: 2;
+			
+			
+		}
+		.search p{
+			font-size:35px;
+			font-weight: 100;
+			text-align: center;
+			
+		}
+		.input-section{
+			width:820px;
+			height:42px;
+			position: absolute;
+			left:200px;
+			margin-top:10px;
+
+		}
+		.input-section input{
+			width:70%;
+			height:43px;
+			border:none;
+			outline:none;
+			
+		}
+		.input-section button{
+			margin:-5px;
+			height: 43px;
+			width:200px;
+			border:none;
+			background-color:yellow;
+		}
+		.banner{
+			height:120vh;
+			padding:5px 8%;
+			width:100%
+			;
+		}
+		.first-image{
+			height:250px;
+			width:100%;
+		}
+		.first-image h3{
+			margin-top:50px;
+			margin-bottom: 10px;
+			line-height: 1.1;
+			font-size:0.75rem;
+		}
+		.frist-image a{
+			display: 	block;
+		}
+		.first-image a img{
+			width:100%;
+			height: 90%;
+			object-fit: contain;	
+		}
+		.second-image{
+			height:250px;
+			width:100%;
+		}
+		.second-image h3{
+			margin-top:50px;
+			margin-bottom: 10px;
+			line-height: 1.1;
+			font-size:0.75rem;
+		}
+		.second-image a{
+			display: 	block;
+		}
+		.second-image a img{
+			width:100%;
+			height: 90%;
+			object-fit: contain;	
+		}
+		.featured{
+			height: 100vh;
+			width:100%;
+			padding:15px 7%;
+			border-top:2px solid #d3dceb;
+		}
+	
+		.food-link-container{
+			display:inline-flex;
+			justify-content: space-between;
+			width:100%;
+			margin-top:60px;
+			margin-bottom:30px;
+			padding-inline:10px;
+		}
+		.featured h2{
+			line-height: 1.1;
+			font-size:0.85rem;
+			display:inline-block;
+			text-transform: uppercase;	
+		}
+		.featured .link{
+			float:right;
+			color:black;
+			text-decoration: none;
+		}
+		.feature{
+			height:425px;
+			width:100%;
+			padding:4px;
+			display:grid;
+			grid-template-columns: repeat(4,1fr);
+			grid-gap:13px;
+		
+		}
+		.food-item-container{
+			height:200px;
+			width:250px;
+		
+		}
+		.listing{
+			height:150px;
+			width:100%;
+			background-color:#fff;
+			display:block;
+			padding:5px;
+			text-decoration:none;
+			font-size:20px;
+			overflow:hidden;
+			
+		}
+		.food-item img{
+			width:100%;
+			height:100%;
+			transition: transform 0.3s ease;
+			}
+		.food-item > img:hover{
+			cursor: pointer;
+			transform: scale(1.1);
+		} 
+		.food-item-container > p {
+			font-size:24px;
+		}
+		.about{
+			height:60vh;
+			width:100%;
+			margin-top:10px;
+			border-top:3px solid #33a;
+			background:linear-gradient(rgb(0,0,0,.5),rgb(0,0,0,.5)),url(./images/about-background.png);
+			background-repeat:no-repeat;
+			
+			background-position: center;
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+		}
+		.about p{
+			width:800px;
+			font-size:20px;
+			color:#fff;
+			margin-bottom:20px;
+			text-align: center;
+		}
+		.about h1{
+			color:#fff;
+			font-size:2rem;
+		}
+		.about button{
+			padding:10px 25px;
+			text-transform: uppercase;
+		}
+		.download{
+			height:70vh;
+			padding:10px 6%;
+			display: flex;
+			justify-content: space-between;
+
+			overflow: hidden;
+		}
+		.left-container{
+			height:300px;
+			width:40%;
+		
+			margin-top: 120px;
+
+		}
+		.left-container h1{
+			font-size:36px;
+			font-family: 'Poppins', sans-serif;
+		}
+		.left-container p{
+			margin:10px 0 20px 0;
+			font-size:20px;
+			color:#344;
+		}
+		.image-links{
+			height:80px;
+			width:100%;
+			display:flex;
+		}
+		.image-links >a >img{
+			height:40px;
+			width:100px;
+		}
+		.image-links a{
+			margin-left: 10px;
+		}
+		.image-container{
+			height: 80vh;
+			width:500px;
+			margin-right:70px;
+		}
+		.image-container img{
+			height:100%;
+			width:90%;
+		}
+		.costumer{
+			height: 50vh;
+			width:100%;
+			padding:10px 10%;
+			background-color:#f7f7f7;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			flex-direction: column;
+		}
+		.costumer p{
+			font-size:40px;
+			text-align: center;
+		}
+		.costumer p span{
+			font-size:35px;
+		}
+		.costumer button{
+			margin-top: 20px;
+			padding:10px 30px;
+			background-color:#ffdd00;
+			border:none;
+		}
+		.footer{
+			height:70vh;
+			widows: 100%;
+			padding:50px 5%;
+			display: inline-flex;
+			border-top:1px solid #000;
+			justify-content: space-between;
+			
+		}
+		.footer ul{
+			list-style: none;
+		}
+		.footer li {
+			margin:0 10px 10px 0px;
+			font-size:18px;
+		}
+		.footer li a {
+			text-decoration: none;
+			color:#715763;
+		}
+		.links{
+			margin-top:0px;
+
+		}
+		.links a{
+			font-size:30px;
+			background-color:#fff;
+			color:#9B9B9B;
+			display: inline-block;
+			margin-left:5px;
+		}
+		
